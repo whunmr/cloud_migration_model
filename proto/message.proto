@@ -1,0 +1,17 @@
+syntax = "proto3";
+option optimize_for = SPEED;
+
+message StateTransfer {
+  Context context = 1;
+  Input input = 2;
+  Output output = 3;
+}
+
+message Context {
+}
+
+message Input {
+}
+
+message Output {
+}
